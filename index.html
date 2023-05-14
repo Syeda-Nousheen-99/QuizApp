@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="icon.webp" href="icon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+     <!-- start Quiz button -->
+     <div class="start_btn "><button>Start Quiz</button></div>
+     <!-- Info Box -->
+     <div class="info_box">
+         <div class="info-title"><span>Some Rules of this Quiz</span></div>
+         <div class="info-list">
+             <!-- <div class="info">1. You will have only <span>15 seconds</span> per each question.</div> -->
+             <div class="info">1. Once you select your answer, it can't be undone.</div>
+             <div class="info">2. You can't select any option once time goes off.</div>
+             <div class="info">3. You can't exit from the Quiz while you're playing.</div>
+             <div class="info">4. You'll get points on the basis of your correct answers.</div>
+         </div>
+         <div class="buttons">
+             <button class="quit">Exit Quiz</button>
+             <button class="restart">Continue</button>
+         </div>
+     </div>
+     <!-- Quiz Box -->
+     <div class="quiz_box ">
+        <h1 class="title">Quiz Web Application</h1>
+        <h2 class="Que_text"></h2>
+        <div class="options">
+            <!-- <div class="option">Hyper Text Preprocessor</div>
+            <div class="option correct">Hyper Text Markup Language <i class="fa fa-check"></i></div>
+            <div class="option">Hyper Text Multiple Language</div>
+            <div class="option wrong">Hyper Tool Multi Language <i class="fa fa-times"></i></div> -->
+        </div>
+         <div class="footer">
+        <div class="left">
+            <span class="countQ"></span> of <span class="totalQ"></span> Question
+        </div>
+        <div class="right">
+            <div class="next_btn inactive">Next Question</div>
+        </div>
+     </div>
+     </div>
+     <!-- Result box  -->
+     <div class="result-box inactive">
+        <h2>Result</h2>
+        <div class="result">
+           <h3 class="total-que">Total Questions : <span></span></h3>
+           <h3 class="right-ans">Right Answers : <span></span></h3>
+           <h3 class="wrong-ans">Wrong Answers : <span></span></h3>
+           <h3 class="percentage">Percentage : <span></span></h3>
+        </div>
+        <div class="result-footer">
+           <div class="again-quiz">Again Quiz</div>
+           <div class="exit">Exit</div>
+        </div>
+     </div>
+     
+    
+ 
+</body>
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</html>
